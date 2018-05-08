@@ -8,15 +8,27 @@ check status
 
 // to avoid tracking some files, create a ".gitignore" file and add the desired files or folders
 //addign files to the staging area
+
 git add "filename"
 //add all files to staging
 git add --all
 
 //remove files from stagign area
 git reset "filename"
-or
-git reset --all
+or to remove all
+git reset
+
 
 //comit changes to repo
 git commit "filename"
 git commit --all
+git commit -m "this is a commit message to others"
+//check the logs
+git log
+
+//adding a remote repo locally
+git remote add origin "git hub repo url"
+
+git remote add origin https://github.com/jsoori/testgit.git
+//pushing the changes to the repo
+git push -u origin master
