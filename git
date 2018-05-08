@@ -53,3 +53,5 @@ git checkout "branch name"
 //merging branch with master
 git merge "branch name"
 //and then push the changes
+//deleting a branch
+git branch -d "branch name"
