@@ -10,12 +10,13 @@ check status
 //addign files to the staging area
 git add "filename"
 //add all files to staging
-git add -A
+git add --all
 
 //remove files from stagign area
 git reset "filename"
 or
-git reset -A
+git reset --all
 
 //comit changes to repo
 git commit "filename"
+git commit --all
