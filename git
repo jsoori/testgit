@@ -41,6 +41,7 @@ git branch --all
 
 // to view the changes that you did to the code locally
 git diff
+<<<<<<< HEAD
 
 //pull changes from remote repo
 
@@ -50,3 +51,6 @@ git pull origin master
 git branch "branch name"
 //switching and working on teh new branch
 git checkout "branch name"
+=======
+//check Update locally--ignore this line
+>>>>>>> e72c1c40fc0b11a52f5266268113eadcc37ed4d5
