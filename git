@@ -41,3 +41,12 @@ git branch --all
 
 // to view the changes that you did to the code locally
 git diff
+
+//pull changes from remote repo
+
+git pull origin master
+
+//creating a branch
+git branch "branch name"
+//switching and working on teh new branch
+git checkout "branch name"
