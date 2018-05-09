@@ -1,0 +1,16 @@
+ git init
+ git status
+git add --all
+git reset
+git commit "filename"
+git commit --all
+git commit -m "this is a commit message to others"
+git log
+git remote add origin https://github.com/jsoori/testgit.git
+git push -u origin master
+git branch --all
+git pull origin master
+git branch "branch name"
+git checkout "branch name"
+git merge "branch name"
+git push origin --delete "repo name"
