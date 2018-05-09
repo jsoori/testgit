@@ -48,12 +48,17 @@ git pull origin master
 
 //creating a branch
 git branch "branch name"
+
 //switching and working on teh new branch
 git checkout "branch name"
+
 //merging branch with master
 git merge "branch name"
+
 //and then push the changes
 //deleting a branch
+
 git branch -d "branch name"
+
 //to delete also remotly
 git push origin --delete "repo name"
